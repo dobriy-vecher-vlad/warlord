@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="/../img/warlord.ico" type="image/x-icon"/>
+		<title>Scaner warlord</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link id="stylesheet" href="main.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/../fonts/FontAwesome/css/all.css">
+	</head>
+	<body class="body">
+		<div class="main_rules">
+			<div class="main_rules_list"><i class="fas fa-info"></i>   Добро пожаловать   <i class="fas fa-info"></i>
+			<div class="main_rules_text">Сканер позволяет вывести всех своих друзей ВКонтакте с характеристиками из игры WARLORD. Доступна функция сортировки по всем показателям, а так-же регулировка количества профилей на одной странице.<br><br>Сайт работает на API запросах ВКонтакте, поэтому ваш токен необходим для работы. Он никуда не рассылается и не будет использован кем-то, кроме вас. Вы всегда можете удалить доступ в настройках вашего профиля ВКонакте (<a href="https://vk.com/settings?act=apps" target="_blank">vk.com/settings?act=apps</a>).<br><br>Используя данный сайт, вы соглашаетесь с правилами использования.</div>
+			<br><i class="fas fa-unlock"></i>   Правила использования   <i class="fas fa-lock"></i>
+			<div class="main_rules_text"><b>1.</b> Запрещается разглашение информации об этом сайте, а так-же об его функциях. Соблюдайте конфиденциальность.<br><b>2.</b> Запрещается вводить чужиие данные. Следует вводить данные только того аккаунта, с которого была произведена оплата.<br><b>3.</b> Запрещается необдуманное использование сайта и его нагрузки. Не следует производить загрузку друзей, если вам она не нужна, поскольку чем больше друзей - тем сильнее нагрузка на сайт и на ваш токен.<br><br>За нарушение правил использования вы можете потерять доступ к сайту и его функциям без возвращения оплаты.</div>
+			<div onclick="exit_rules();" class="friend_button green" style="height: 35px; line-height: 35px; width: 259px; margin: auto;">Принимаю правила использования</div>
+			</div>
+		</div>
+		<div class="main_friends">
+			<div class="main_friends_list">
+				<div class="reg_head"><i class="fas fa-sign-in-alt"></i>   Авторизация   <i class="fas fa-sign-out-alt"></i>
+					<div class="reg_inputs"> 
+						<img class="reg_img" src="help_1.png">
+						<input id="reg_input_id" type="text" class="reg_input" value="" maxlength="9" placeholder="ID, пример: 153968505"><div onclick="window.open('https://vk.com/settings', '_blank');" class="friend_button" style="display: inline-block; height: 30px; line-height: 30px; width: 120px;">Посмотреть</div>
+					</div>
+					<div class="reg_inputs">
+						<img class="reg_img" src="help_2.png">
+						<input id="reg_input_key" type="text" class="reg_input" value="" maxlength="85" placeholder="Access Token, пример: 74dca1a360db1b7f76ea90d0392df09b5987bf20bb82f7a058982361091b1b0125c28f6b9bd014ddbf945"><div onclick="window.open('https://oauth.vk.com/authorize?client_id=6967128&display=page&scope=friends,pages,offline&response_type=token', '_blank');" class="friend_button" style="display: inline-block; height: 30px; line-height: 30px; width: 120px;">Посмотреть</div>
+					</div>
+					<div id="check_reg" onclick="start_reg();" class="friend_button green" style="height: 35px; line-height: 35px; width: 259px; display: inline-block; margin-right: 11px;">Войти</div><select id="check_count">
+							<option selected value="10">10 шт.</option>
+							<option value="20">20 шт.</option>
+							<option value="50">50 шт.</option>
+							<option value="100">100 шт.</option>
+							<option value="250">250 шт.</option>
+							<option value="500">500 шт.</option>
+							<option value="1000">1000 шт.</option>
+						</select>
+					<div onclick="go_rules();" class="main_rules_go">Правила использования</div>
+				</div>
+			</div>
+		</div>
+		<div class="main_tooltip"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+{
+	"scriptUPDATE": "1.0.3",
+	"uid": 153968505,
+	"auth_key": "27d3f8cbc199e24f6ee4120f74e22590",
+	"statusBLOCK": [],
+	"statuses": [
+		{
+			"Alert": "off",
+			"statusRED": [],
+			"statusGREEN": [],
+			"statusORANGE": [],
+			"statusYELLOW": [],
+			"statusINVISIBLE": [27944274, 526054914],
+			"nickBLOCK": [],
+			"scriptADMIN": [153968505],
+			"statusAnimate": {
+				"153968505": {
+					"nick": false,
+					"href": "https://i.yapx.ru/MPyz1.gif"
+				}
+			},
+			"nickCUSTOM": {}
+		}, {
+			"Alert": "off",
+			"statusRED": [],
+			"statusGREEN": [],
+			"statusORANGE": [],
+			"statusYELLOW": [],
+			"statusINVISIBLE": [27944274, 526054914],
+			"nickBLOCK": [],
+			"scriptADMIN": [153968505],
+			"statusAnimate": {
+				"153968505": {
+					"nick": false,
+					"href": "https://i.yapx.ru/MPyz1.gif"
+				}
+			},
+			"nickCUSTOM": {}
+		}, {
+			"Alert": "off",
+			"statusRED": [],
+			"statusGREEN": [],
+			"statusORANGE": [],
+			"statusYELLOW": [],
+			"statusINVISIBLE": [27944274, 526054914],
+			"nickBLOCK": [],
+			"scriptADMIN": [153968505],
+			"statusAnimate": {
+				"153968505": {
+					"nick": false,
+					"href": "https://i.yapx.ru/MPyz1.gif"
+				}
+			},
+			"nickCUSTOM": {}
+		}
+	]
+}

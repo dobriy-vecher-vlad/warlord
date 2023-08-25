@@ -8,12 +8,12 @@
 	"statusBLOCK": [],
 	"nickBLOCK": [],
 	"scriptADMIN": [153968505],
-	"scriptUPDATE": "1.1.1",
+	"scriptUPDATE": "1.1.2",
 	"api_id": "7096306",
 	"api_vk_id": "292859277",
 	"api_vk_auth_key": "aadedb22531b548fd561d6a8b35d3d0c",
-	"api_vk_uid": "1274009",
-	"api_vk_sslt": "183647",
+	"api_vk_uid": "1618435",
+	"api_vk_sslt": "832165",
 	"statusAnimate": {
 		"153968505": {
 			"nick": false,

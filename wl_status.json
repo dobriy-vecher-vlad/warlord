@@ -61,7 +61,8 @@
 				"43": "full",
 				"51": "full",
 				"45": "full",
-				"1830": "full"
+				"1830": "full",
+				"2000": "full"
 			},
 			"nickCUSTOM": {
 				"84002556": "✬ṌḼĐ✬ ♛ Ĉץ૮λиḵ ™",
@@ -109,7 +110,9 @@
 					"href": "https://i.yapx.ru/NaNTy.gif"
 				}
 			},
-			"clanBLOCK": {},
+			"clanBLOCK": {
+				"1967": "full"
+			},
 			"nickCUSTOM": {
 				"84002556": "✬ṌḼĐ✬ ♛ Ĉץ૮λиḵ ™"
 			},

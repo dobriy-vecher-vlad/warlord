@@ -18,7 +18,11 @@ jobs:
           aws s3 sync ./ s3://${{ secrets.YANDEX_BUCKET_NAME }} \
             --endpoint-url=https://storage.yandexcloud.net \
             --delete \
-            --exclude ".git/*" \
-            --exclude ".github/*" \
-            --exclude ".gitignore" \
-            --exclude "README.md"
+            --exclude "*" \
+            --include "data/*" \
+            --include "media/*" \
+            --include "dl_status.json" \
+            --include "hs_status.json" \
+            --include "inv_status.json" \
+            --include "tt_status.json" \
+            --include "wl_status.json"
